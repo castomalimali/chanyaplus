@@ -1,0 +1,26 @@
+.bottom-right{
+    right: 1px;
+    bottom: 1px;
+}
+.position{
+    align-items: flex-end;
+    justify-content: end;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-top: 100px;
+}
+.btn-bt{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.img-co{
+    background: url('assets/img/skills.png');
+}
+.al{
+    position: absolute;
+    right: 0;
+}
