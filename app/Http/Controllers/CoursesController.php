@@ -16,4 +16,13 @@ class CoursesController extends Controller
     public function showCoursesLearn2(){
         return view('courses.learnfromher.2');
     }
+    public function showSevenLevel(){
+        return view('courses.seven-levels.1');
+    }
+    public function showPersonal(){
+        return view('courses.personaldev.1');
+    }
+    public function showSelfAwareness(){
+        return view('courses.selfawareness.1');
+    }
 }

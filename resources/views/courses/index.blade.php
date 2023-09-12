@@ -22,9 +22,9 @@
 
         <div class="col-md-4 animated fadeInUp">
 
-          <div class="card mb-4"><a href="personal development.html">
+          <div class="card mb-4"><a href="{{route('courses.personaldev')}}">
 
-              <img src="assets/img/Timizadoto2.webp" class="card-img-top" alt="Image 1">
+              <img src="{{asset('assets/img/Timizadoto2.webp')}}" class="card-img-top" alt="Image 1">
               <div class="card-body">
                 <h5 class="card-title">Personal Development</h5>
                 <p class="card-text">Personal Development</p>
@@ -37,7 +37,7 @@
         <div class="col-md-4">
           <div class="card mb-4">
             <a href="self-awareness.html">
-              <img src="assets/img/Timizadoto2.webp" class="card-img-top" alt="Image 1">
+              <img src="asset('assets/img/Timizadoto2.webp')" class="card-img-top" alt="Personal Development">
               <div class="card-body">
                 <h5 class="card-title">Self Awareness</h5>
                 <p class="card-text">Personal Development</p>
@@ -49,8 +49,8 @@
 
         <div class="col-md-4">
           <div class="card mb-4">
-            <a href="self-evaluation.html">
-              <img src="assets/img/Timizadoto2.webp" class="card-img-top" alt="Image 1">
+            <a href="">
+              <img src="{{asset('assets/img/Timizadoto2.webp')}}" class="card-img-top" alt="Image 1">
               <div class="card-body">
                 <h5 class="card-title">Self Evaluation</h5>
                 <p class="card-text">Personal Development</p>

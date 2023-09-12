@@ -1,0 +1,37 @@
+
+/* add responsive media query */
+iframe{
+    height: 90vh;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    iframe{
+        height: 60vh;
+    }
+}
+@media (max-width: 576px) {
+    iframe{
+        height: 60vh;
+    }
+}
+@media (max-width: 375px) {
+    iframe{
+        height: 50vh;
+    }
+}
+
+
+.btn-mine {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    color: #fff;
+    background: #1f5e02;
+  }

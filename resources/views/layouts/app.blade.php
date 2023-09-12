@@ -11,7 +11,7 @@
   <meta content="Casto E Malimali" name="author">
 
   <!-- Favicons -->
-  <link href="chanyaicon.png" rel="icon">
+  <link href="{{ asset('/chanyaicon.png') }}" rel="icon">
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
@@ -28,7 +28,7 @@
 
   <!-- Main CSS File -->
   <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
-@yield('css')
+  @yield('css')
 
 </head>
 
@@ -39,7 +39,7 @@
     <div class="container d-flex align-items-center">
 
       {{-- <h1 class="logo me-auto"><a href="{{url('/')}}">Chanya Online</a></h1> --}}
-      <a href="{{ url('/')}}" class="logo me-auto"><img src="assets/img/chanyapluswhite.png" alt="Chanya Plus Logo" class="img-fluid"></a>
+      <a href="{{ url('/')}}" class="logo me-auto"><img src="{{ asset('assets/img/chanyapluswhite.png') }}" alt="Chanya Plus Logo" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -64,13 +64,12 @@
   </header><!-- End Header -->
 
 @yield('hero')
+<!-- Main Section -->
 @yield('main')
 
 
 
 
-
-  </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
