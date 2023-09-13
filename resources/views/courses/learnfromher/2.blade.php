@@ -18,10 +18,13 @@
     <div class="main">
     <div class="container-fluid">
         <div class="container p-4">
-            <iframe src="https://www.youtube.com/embed/bcot-IbycFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/a3OAukT0a-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
             <br>
-            <button class="btn btn-rounded primary float-start disabled bg-primary px-2 text-color-light"> Prev  </button>
-            <a href="{{ route('courses.learnfromher2')}}"><button class="btn bg-primary bg-primary px-2 text-color-light btn-rounded float-end"> Next </button></a>
+            <a href="{{ route('courses.learnfromher')}}"><button class="btn btn-rounded primary float-start bg-primary px-2 text-color-light"> Prev  </button></a>
+            <button class="btn disabled bg-primary bg-primary px-2 text-color-light btn-rounded float-end"> Next </button>
             <br>
         </div>
 

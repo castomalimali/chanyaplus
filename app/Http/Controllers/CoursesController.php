@@ -25,4 +25,11 @@ class CoursesController extends Controller
     public function showSelfAwareness(){
         return view('courses.selfawareness.1');
     }
+    public function showSelfEvolution(){
+        return view('courses.selfevolution.1');
+
+    }
+    public function showSelfEvolution2(){
+        return view('courses.selfevolution.2');
+    }
 }

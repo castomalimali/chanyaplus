@@ -27,3 +27,5 @@ Route::get('/courses/personal-development', [CoursesController::class, 'showPers
 
 Route::get('/courses/self-awareness', [CoursesController::class, 'showSelfAwareness'])->name('courses.selfaware');
 
+Route::get('/courses/self-evaluation', [CoursesController::class, 'showSelfEvolution'])->name('courses.selfevolution');
+Route::get('/courses/self-evaluation-2', [CoursesController::class, 'showSelfEvolution2'])->name('courses.selfevolution2');
