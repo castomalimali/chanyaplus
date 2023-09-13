@@ -31,3 +31,6 @@ Route::get('/courses/self-awareness', [CoursesController::class, 'showSelfAwaren
 
 Route::get('/courses/self-evaluation', [CoursesController::class, 'showSelfEvolution'])->name('courses.selfevolution');
 Route::get('/courses/self-evaluation-2', [CoursesController::class, 'showSelfEvolution2'])->name('courses.selfevolution2');
+
+Route::get('/courses/Message-to-Graduants', [CoursesController::class], 'showUnigraduant')->name('courses.graduant');
+route::get('/course/UNI-students', [CoursesController::class], 'showUniStudent')->name('courses.unistudent');

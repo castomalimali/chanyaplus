@@ -43,4 +43,10 @@ class CoursesController extends Controller
     {
         return view('courses.selfevolution.2');
     }
+    public function showUnigraduant(){
+        return view('courses.unigraduants.1');
+    }
+    public function showUniStudent(){
+        return view('courses.unistudent.index');
+    }
 }
