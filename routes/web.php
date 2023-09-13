@@ -23,6 +23,8 @@ Route::get('/courses/learn-from-her-story-2', [CoursesController::class, 'showCo
 
 Route::get('/courses/seven-levels-of-growth', [CoursesController::class, 'showSevenLevel'])->name('courses.seven-levels');
 
+Route::get('/courses/seven-levels-of-growth-2', [CoursesController::class, 'showSevenLevel2'])->name('courses.seven-levels2');
+
 Route::get('/courses/personal-development', [CoursesController::class, 'showPersonal'])->name('courses.personaldev');
 
 Route::get('/courses/self-awareness', [CoursesController::class, 'showSelfAwareness'])->name('courses.selfaware');
