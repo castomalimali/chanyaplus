@@ -19,7 +19,7 @@
             <div class="col-md-8  align-items-center">
                 <h2 class="pt-3">Timiza Ndoto na Malengo Yako</h2>
                 <ul class="list-group">
-                    <li class="list-group-item"><strong>Author:</strong> Pamela Chogo</li>
+                    <li class="list-group-item"><strong>Author:</strong> <a href="{{route('author.pam')}}" style="color: black" >Pamela Chogo</a> </li>
                     <li class="list-group-item"><strong>Release Year:</strong> 2020</li>
                     <li class="list-group-item"><strong>Price:</strong> TZS 5,000</li>
                 </ul>
@@ -37,8 +37,8 @@
     
     </div>
 
-    <div class="container">
-        <a href="{{route('author.pam')}}"><h3>About Author</h3></a>
+    <div class="container p-7">
+        <p>About Author</p></a>
     </div>
 
 </main>

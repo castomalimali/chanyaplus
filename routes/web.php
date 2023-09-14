@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\CoursesController;
 use App\Http\Controllers\EbookController;
 use Illuminate\Support\Facades\Route;
@@ -37,3 +38,5 @@ Route::get('/courses/self-evaluation-2', [CoursesController::class, 'showSelfEvo
 
 Route::get('/courses/Message-to-Graduants', [CoursesController::class, 'showUnigraduant'])->name('courses.graduant');
 route::get('/course/UNI-students', [CoursesController::class, 'showUniStudent'])->name('courses.unistudent');
+
+Route::get('/author/1',[AuthorController::class, 'index'])->name('author.pam'); 

@@ -17,7 +17,7 @@
     <div class="container mt-4 py-4">
         <div class="row">
             <div class="col-md-4 col-lg-3">
-                <img src="{{  asset('assets/img/Timiza ndoto FULL COVER PAMELA.png')  }}" alt="Book Cover" class="img-fluid">
+                <img src="{{ asset('assets/img/Timiza ndoto FULL COVER PAMELA.png') }}" alt="Book Cover" class="img-fluid">
             </div>
             <div class="col-md-8 col-lg-9">
                 <h2 class="pt-3">Timiza Ndoto na Malengo Yako</h2> 
@@ -30,7 +30,7 @@
     </div>
 
     <div class="container">
-        <a href="{{route('author.pam')}}"><h3>About Author</h3></a>
+        <a href="{{route('author.pam')}}"><h3 class="btn bg-danger">About Author</h3></a>
     </div>
 
 </main>
