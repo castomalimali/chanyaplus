@@ -39,4 +39,5 @@ Route::get('/courses/self-evaluation-2', [CoursesController::class, 'showSelfEvo
 Route::get('/courses/Message-to-Graduants', [CoursesController::class, 'showUnigraduant'])->name('courses.graduant');
 route::get('/course/UNI-students', [CoursesController::class, 'showUniStudent'])->name('courses.unistudent');
 
-Route::get('/author/1',[AuthorController::class, 'index'])->name('author.pam'); 
+Route::get('/author/1',[AuthorController::class, 'index'])->name('author.pam');
+Route::get('/courses/time-management', [CoursesController::class, 'showTime'])->name('courses.time');

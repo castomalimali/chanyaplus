@@ -49,4 +49,8 @@ class CoursesController extends Controller
     public function showUniStudent(){
         return view('courses.unistudent.index');
     }
+    public function showTime(){
+        return view('courses.time.index');
+    }
+
 }
