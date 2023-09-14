@@ -1,0 +1,49 @@
+@extends('layouts.app')
+@section('title','UNI Students')
+@section('css')
+<link rel="stylesheet" href="{{ asset('assets/css/course-open.css')}}">
+@endsection
+@section('hero')
+    <section id="hero" class="d-flex align-items-center" style="height: 20vh;">
+        <div class="container">
+            <h1>E-Book: Timiza Ndoto Yako</h1>
+        </div>
+        </div>
+
+    </section>
+@endsection
+@section('main')
+<div class="container-fluid bg-body-tertiary ">
+    <div class="container mt-4 py-4">
+        <div class="row">
+            <div class="col-md-8  align-items-center">
+                <h2 class="pt-3">Timiza Ndoto na Malengo Yako</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>Author:</strong> Pamela Chogo</li>
+                    <li class="list-group-item"><strong>Release Year:</strong> 2020</li>
+                    <li class="list-group-item"><strong>Price:</strong> TZS 5,000</li>
+                </ul>
+                <br>
+                <a href="{{ asset('assets/pdf/TIMIZA NDOTO NA MALENGO YAKO chapter one.pdf') }}" class="btn btn-primary btn-rounded">Get Copy</a>
+                </a>
+                <input type="submit" value="Buy a Book" class="btn bg-body-secondary normal float-end">
+            </div>
+            <div class="col-md-4">
+                <img src="{{  asset('assets/img/Timiza ndoto FULL COVER PAMELA.png')  }}" alt="Book Cover" class="img-fluid">
+            </div>
+        </div>
+    
+    </div>
+    
+    </div>
+
+    <div class="container">
+        <a href="{{route('author.pam')}}"><h3>About Author</h3></a>
+    </div>
+
+</main>
+<br>
+<br>
+
+
+@endsection

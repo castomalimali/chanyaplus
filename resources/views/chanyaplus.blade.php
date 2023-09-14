@@ -9,8 +9,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>Chanya Online</h1>
-          <h2>Chanya Online is a chanya change e-learning platform that aimed to train youth though digital space on videos and reads (e-books and books) </h2>
+          <h1>Chanya Plus</h1>
+          <h2> EdTech platform offering learning materials focusing on creating an employable and motivated community</h2>
+          <p style="color: white; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 18px">The platform provides:</p>
+            <ul style="list-style-type: disc;">
+                <li>Short Courses</li>
+                <li>E-books</li>
+                <li>E-mentorship</li>
+            </ul>
           <div class="d-flex justify-content-center justify-content-lg-center">
             <a href="#about" class="btn-get-started scrollto">Learn More</a>
 

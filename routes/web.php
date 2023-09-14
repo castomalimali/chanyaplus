@@ -14,6 +14,9 @@ Route::get('/courses', [CoursesController::class, 'index'])->name('courses');
 
 Route::get('/ebooks', [EbookController::class, 'index'])->name('ebooks');
 
+Route::get('/ebooks/timiza-ndoto-yako', [EbookController::class, 'showTimiza'])->name('ebook.timiza');
+Route::get('/ebooks/timiza-ndoto-yako-audio', [EbookController::class, 'showTimizaAudio'])->name('timiza.audio');
+
 
 Route::get('/courses/learn-from-her-story-1', [CoursesController::class, 'showCoursesLearn'])->name('courses.learnfromher1');
 Route::get('/courses/learn-from-her-story-2', [CoursesController::class, 'showCoursesLearn2'])->name('courses.learnfromher2');
@@ -32,5 +35,5 @@ Route::get('/courses/self-awareness', [CoursesController::class, 'showSelfAwaren
 Route::get('/courses/self-evaluation', [CoursesController::class, 'showSelfEvolution'])->name('courses.selfevolution');
 Route::get('/courses/self-evaluation-2', [CoursesController::class, 'showSelfEvolution2'])->name('courses.selfevolution2');
 
-Route::get('/courses/Message-to-Graduants', [CoursesController::class], 'showUnigraduant')->name('courses.graduant');
-route::get('/course/UNI-students', [CoursesController::class], 'showUniStudent')->name('courses.unistudent');
+Route::get('/courses/Message-to-Graduants', [CoursesController::class, 'showUnigraduant'])->name('courses.graduant');
+route::get('/course/UNI-students', [CoursesController::class, 'showUniStudent'])->name('courses.unistudent');

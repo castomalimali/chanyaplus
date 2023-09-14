@@ -27,7 +27,7 @@
     <div class="col-md-4 animated fadeInUp">
       <a href="timizabook.html">
       <div class="card mb-4">
-        <img src="assets/img/Timiza ndoto FULL COVER PAMELA.png" class="card-img-top" alt="Image 1">
+        <img src="{{  asset('assets/img/Timiza ndoto FULL COVER PAMELA.png') }}" class="card-img-top" alt="Image 1">
         <div class="card-body">
           <h5 class="card-title">Timiza ndoto na Malengo Yako</h5>
           <p class="card-text">e-Book.</p>
@@ -74,7 +74,7 @@
 
     <div class="col-md-4 animated fadeInUp">
       <div class="card mb-4">
-        <img src="assets/img/comming soon.jpg" class="card-img-top" alt="Image 1">
+        <img src="{{asset('assets/img/comming soon.jpg')}}" class="card-img-top" alt="Image 1">
         <div class="card-body">
           <h5 class="card-title">Coming Soon</h5>
           <p class="card-text">Be patient many collection will be coming.</p>
