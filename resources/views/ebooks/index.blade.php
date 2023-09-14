@@ -33,13 +33,22 @@
           <p class="card-text">e-Book.</p>
           <cite class="float-right text-primary font-weight-bold">-By Pamela</cite>
         </div>
-      </div>
+      </div>  </a>
     </div>
-  </a>
+    <div class="col-md-4 animated fadeInUp">
+        <div class="card mb-4">
+          <img src="{{ asset('assets/img/safari.png') }}" class="card-img-top" alt="Image 1">
+          <div class="card-body">
+            <h5 class="card-title">Safari ya Malkia</h5>
+            <p class="card-text">Book.</p>
+            <cite class="float-right text-primary font-weight-bold">-By Pamela</cite>
+          </div>
+        </div>
+      </div>
 
 
 
-  <!-- Repeat the above card structure for 9 more cards -->
+
 
 </div>
 </div>
@@ -52,22 +61,18 @@
   <h1 class=" p-3">Audio books and podcast</h1>
   <hr>
 <div class="row">
-
-
     <div class="col-md-4 animated fadeInUp">
-
       <div class="card mb-4">
-        <img src="assets/img/play.jpg" class="card-img-top" alt="Image 1">
+        <img src="{{ asset('assets/img/play.jpg') }}" class="card-img-top" alt="Image 1">
         <div class="card-body">
           <h5 class="card-title">Timiza ndoto na Malengo Yako</h5>
           <p class="card-text">audio book.</p>
           <cite class="float-right text-primary font-weight-bold">-By Pamela</cite>
         </div>
       </div>
-
     </div>
-    <div class="col-md-4 animated fadeInUp">
 
+    <div class="col-md-4 animated fadeInUp">
       <div class="card mb-4">
         <img src="assets/img/comming soon.jpg" class="card-img-top" alt="Image 1">
         <div class="card-body">
@@ -76,7 +81,6 @@
           <cite class="float-right text-primary font-weight-bold">-Patient is Best Practices</cite>
         </div>
       </div>
-
     </div>
 
 </div>
