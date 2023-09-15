@@ -15,12 +15,12 @@ public function storeOrder(Request $request ){
     $request->validate([
         'name' => 'required',
         'email' => 'required',
-       
+
         'message' => 'required',
     ]);
-    
-    $order= new Order;
-    $order->name = $request->name;
+
+    $order= new Order();
+    $order->name = $request->input('name');
     $order->email = $request->email;
     $order->phone = $request->phone;
     $order->address = $request->address;
