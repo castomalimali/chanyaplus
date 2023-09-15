@@ -46,7 +46,7 @@
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Career Development</a></h4>
+              <h4><a href="{{route('courses')}}">Career Development</a></h4>
               <p>For youth in unversity and secondary school leve understand how to find their path</p>
             </div>
           </div>
@@ -54,7 +54,7 @@
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">e-books</a></h4>
+              <h4><a href="{{route('ebooks')}}">e-books</a></h4>
               <p>We provide and sell books in term of e-books, audio books and softcopy books</p>
             </div>
           </div>
@@ -62,7 +62,7 @@
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-bulb"></i></div>
-              <h4><a href="">Entrepreneurship & Innovation</a></h4>
+              <h4><a href="{{route('courses')}}">Entrepreneurship & Innovation</a></h4>
               <p>We provide courses for Entrepreneurs and Innovators on many areas on their development</p>
             </div>
           </div>
@@ -70,7 +70,7 @@
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">Inspiration</a></h4>
+              <h4><a href="{{route('courses')}}">Inspiration</a></h4>
               <p>Get inspired from successors on ecosystem</p>
             </div>
           </div>
