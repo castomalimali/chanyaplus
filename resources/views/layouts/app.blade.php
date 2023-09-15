@@ -43,10 +43,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="{{url('/')}}">Home</a></li>
           <li><a class="nav-link scrollto" href="{{route('courses')}}">Courses</a></li>
           <li><a class="nav-link scrollto" href="#services">E-books</a></li>
-          <li class="dropdown"><a href="#"><span>Categories</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a><span>Categories</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="{{route('courses')}}">Personal Development</a></li>
               <li><a href="{{route('courses')}}">Career Development</a></li>
@@ -92,7 +92,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{url('/')}}">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
@@ -103,11 +103,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Career Guidance and development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Personal Develoment</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Innovation and Entrepreneurship</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Workshop and Seminars</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">e-Books and Audio Books</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{route('/courses')}}">Career Guidance and development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{route('/courses')}}">Personal Develoment</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#{{route('/courses')}}>Innovation and Entrepreneurship</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{url('chanyachange.org')}}">Workshop and Seminars</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{route('/ebooks')}}">e-Books and Audio Books</a></li>
             </ul>
           </div>
 

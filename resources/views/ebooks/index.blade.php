@@ -25,7 +25,7 @@
 
 
     <div class="col-md-4 animated fadeInUp">
-      <a href="timizabook.html">
+      <a href="{{ route('ebook.timiza')}}">
       <div class="card mb-4">
         <img src="{{  asset('assets/img/Timiza ndoto FULL COVER PAMELA.png') }}" class="card-img-top" alt="Image 1">
         <div class="card-body">
@@ -63,11 +63,13 @@
 <div class="row">
     <div class="col-md-4 animated fadeInUp">
       <div class="card mb-4">
-        <img src="{{ asset('assets/img/play.jpg') }}" class="card-img-top" alt="Image 1">
-        <div class="card-body">
-          <h5 class="card-title">Timiza ndoto na Malengo Yako</h5>
-          <p class="card-text">audio book.</p>
-          <cite class="float-right text-primary font-weight-bold">-By Pamela</cite>
+        <a href="{{route('timiza.audio')}}">
+            <img src="{{ asset('assets/img/play.jpg') }}" class="card-img-top" alt="Image 1">
+            <div class="card-body">
+              <h5 class="card-title">Timiza ndoto na Malengo Yako</h5>
+              <p class="card-text">audio book.</p>
+              <cite class="float-right text-primary font-weight-bold">-By Pamela</cite>
+        </a>
         </div>
       </div>
     </div>

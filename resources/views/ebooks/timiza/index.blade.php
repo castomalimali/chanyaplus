@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title','UNI Students')
+@section('title','Timiza Ndoto Yako')
 @section('css')
 <link rel="stylesheet" href="{{ asset('assets/css/course-open.css')}}">
 @endsection
@@ -24,7 +24,7 @@
                     <li class="list-group-item"><strong>Price:</strong> TZS 5,000</li>
                 </ul>
                 <br>
-                <a href="{{ asset('assets/pdf/TIMIZA NDOTO NA MALENGO YAKO chapter one.pdf') }}" class="btn btn-primary btn-rounded">Get Copy</a>
+                <a href="{{ route('download', ['file' => 'timiza.pdf']) }}" class="btn btn-primary btn-rounded">Get Copy</a>
                 </a>
                 <input type="submit" value="Buy a Book" class="btn bg-body-secondary normal float-end">
             </div>
@@ -32,9 +32,9 @@
                 <img src="{{  asset('assets/img/Timiza ndoto FULL COVER PAMELA.png')  }}" alt="Book Cover" class="img-fluid">
             </div>
         </div>
-    
+
     </div>
-    
+
     </div>
 
     <div class="container p-7">

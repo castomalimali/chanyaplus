@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+          <img src="{{asset('assets/img/hero-img.png')}}" class="img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -93,7 +93,7 @@
     <div class="col-md-6 col-lg-3">
       <a href="time-management.html">
         <div class="card card-custom">
-          <img src="assets/img/dev.jpg" class="card-img-top" alt="Image 1">
+          <img src="{{asset('assets/img/dev.jpg')}}" class="card-img-top" alt="Image 1">
           <div class="card-body">
             <h5 class="card-title">Time Management</h5>
             <p class="card-text"></p>
@@ -105,7 +105,7 @@
     <div class="col-md-6 col-lg-3">
       <a href="self-awareness.html">
         <div class="card card-custom">
-          <img src="assets/img/skills.png" class="card-img-top" alt="Image 2">
+          <img src="{{asset('assets/img/skills.png')}}" class="card-img-top" alt="Image 2">
           <div class="card-body">
             <h5 class="card-title">Personal Awareness</h5>
             <p class="card-text"></p>
@@ -117,7 +117,7 @@
     <div class="col-md-6 col-lg-3">
       <a href="seven level of growth.html">
         <div class="card card-custom">
-          <img src="assets/img/Timizadoto2.webp" class="card-img-top" alt="Image 3">
+          <img src="{{asset('assets/img/illustration/lev.png')}}" class="card-img-top" alt="Image 3">
           <div class="card-body">
             <h5 class="card-title">7 Levels of Development</h5>
             <p class="card-text"></p>
@@ -127,7 +127,7 @@
       </div>
     </div>
     <div class="col-md-6 col-lg-3">
-      <a href="courses.html">
+      <a href="{{route('courses')}}">
         <div class="card card-custom">
           <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
             <div class=""><span style="font-size: 36px;">➜</span></div>
@@ -143,9 +143,9 @@
   <div class="row">
     <div class="col-md-6 col-lg-3">
 
-      <a href="timizabook.html">
+      <a href="{{route('ebook.timiza')}}">
         <div class="card card-custom">
-          <img src="assets/img/dev.jpg" class="card-img-top" alt="Image 1">
+          <img src="{{asset('assets/img/dev.jpg')}}" class="card-img-top" alt="Image 1">
           <div class="card-body">
             <h5 class="card-title">Timiza Ndoto na Malengo Yako.</h5>
             <p class="card-text"></p>
@@ -155,7 +155,7 @@
       </a>
     </div>
     <div class="col-md-6 col-lg-3">
-      <a href="courses.html">
+      <a href="{{route('ebooks')}}">
         <div class="card card-custom">
           <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
             <div class=""><span style="font-size: 36px;">➜</span></div>
