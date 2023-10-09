@@ -5,13 +5,30 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>@yield('title', 'Chanya Online: Home')</title>
-  <meta content="chanya online" name="description">
-  <meta content="Chanya Online" name="keywords">
+  <title>@yield('title', 'Chanya Plus: Creating empowerable and motivated community ')</title>
+  <meta content="chanya plus is EdTech platform offering learning materials focusing on creating an employable and motivated community" name="description">
+  <meta content="Chanyaplus, chanya plus, youth empowerment education, online learning, empowerment courses" name="keywords">
   <meta content="Casto E Malimali" name="author">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Chanya Plus: Empowering Youth Through Online Education">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chanya Plus: Empowering Youth Through Online Education">
+  <meta property="og:description" content="chanya plus is EdTech platform offering learning materials Focus on creating an employable and motivated community">
+  <meta property="og:url" content="https://chanyaplus.com">
+  <meta property="og:image" content="https://chanyaplus.com/assets/img/hero-img.png">
+  <meta property="og:image:secure_url" content="https://chanyaplus.com/assets/img/chanyaplus.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="600">
 
   <!-- Favicons -->
-  <link href="{{ asset('/chanyaicon.png') }}" rel="icon">
+  {{-- <link href="{{ asset('/chanyaicon.png') }}" rel="icon"> --}}
+
+  <link rel="apple-touch-icon" sizes="180x180" href="
+/favicon/chanyaicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
@@ -103,11 +120,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{route('/courses')}}">Career Guidance and development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{route('/courses')}}">Personal Develoment</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#{{route('/courses')}}>Innovation and Entrepreneurship</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{url('chanyachange.org')}}">Workshop and Seminars</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{route('/ebooks')}}">e-Books and Audio Books</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{route('courses')}}">Career Guidance and development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{route('courses')}}">Personal Develoment</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{route('courses')}}">Innovation and Entrepreneurship</a></li>
+              <li><i class="bx bx-chevron-right" ></i> <a href="{{url('www.chanyachange.org')}}">Workshop and Seminars</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{route('ebooks')}}">e-Books and Audio Books</a></li>
             </ul>
           </div>
 
